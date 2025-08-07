@@ -1,0 +1,14 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Poultry Disease Classifier</title>
+</head>
+<body>
+    <h2>Upload Poultry Image</h2>
+    <form action="/predict" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" />
+        <input type="submit" value="Predict" />
+    </form>
+</body>
+</html>
